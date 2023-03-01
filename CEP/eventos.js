@@ -1,14 +1,16 @@
 function buscarCEP() {
-    fetch()
-         .then()
-         .then();
-    
-    
-    
-         //document.getElementById('logradouro')
-    logradouro.value = "Av. Santos Dummont";
-    bairro.value = "Good Garden";
-    cidade.value = "Caucaia";
-    estado.value = "CE";
+    fetch(`https://viacep.com.br/ws/${cep.value}/json`)
+         .then(function (resposta) {
+             return resposta.json();
+         })
+         .then(function (conteudo) {
+                  //document.getElementById('logradouro')
+                logradouro.value = conteudo.logradouro;
+                bairro.value = conteudo.bairro;
+                cidade.value = conteudo.localidade;
+                estado.value = conteudo.uf;
+
+         });
 }
+
 
