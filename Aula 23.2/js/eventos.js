@@ -1,8 +1,9 @@
+document.querySelector(".bloqueio").classList.add("aparece");
 fetch(`https://servicodados.ibge.gov.br/api/v1/localidades/regioes`)
     .then(res => res.json())
     .then(regioes => {
        
-        
+        document.querySelector(".bloqueio").classList.remove("aparece");
         function addOption(cada) {
             select_regiao.innerHTML += `<option value="${cada.id}">${cada.nome}</option>`;
         }
