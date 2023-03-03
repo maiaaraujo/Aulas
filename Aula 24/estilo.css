@@ -9,7 +9,7 @@
 }
 
 body{
-    background-image: url("https://media.comicbook.com/2016/07/pokemon-map-189586.jpg");
+    background-image: url("https://i.pinimg.com/originals/c1/ab/07/c1ab076d234047f036a7a5dd7a7267a8.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -26,18 +26,18 @@ body{
 }
 
 .pokedex img{
-    width: 100%;
+    width: 90%;
 }
 
 .pokemon{
-    width: 197px;
-    height: 152px;
+    width: 200px;
+    height: 160px;
     background-color: #a3b18a;
     border-radius: 11px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-135%, -84%);
+    transform: translate(-145%, -82%);
     display: flex;
     justify-content: center;
 
