@@ -12,9 +12,12 @@ fetch(`https://servicodados.ibge.gov.br/api/v1/localidades/regioes`)
     });
 
     function buscarEstados() {
+
+        document.querySelector(".bloqueio").classList.add("aparece");
         fetch(`https://servicodados.ibge.gov.br/api/v1/localidades/regioes/${select_regiao.value}/estados`)
         .then(res => res.json())
         .then(estados => {
+            document.querySelector(".bloqueio").classList.remove("aparece");
             select_estado.innerHTML = "<option>-- Selecione --</option>";
             select_cidade.innerHTML = "<option>-- Selecione --</option>";
                 
@@ -29,10 +32,11 @@ fetch(`https://servicodados.ibge.gov.br/api/v1/localidades/regioes`)
     
     function buscarCidades() {
        
-        
+        document.querySelector(".bloqueio").classList.add("aparece");
         fetch(`https://servicodados.ibge.gov.br/api/v1/localidades/estados/${select_estado.value}/municipios`)
               .then(res => res.json())
               .then(cidade => {
+                document.querySelector(".bloqueio").classList.remove("aparece");
                 select_cidade.innerHTML = "<option>-- Selecione --</option>";
                 
                 function addOption(cada) {
