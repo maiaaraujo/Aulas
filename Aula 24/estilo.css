@@ -30,14 +30,14 @@ body{
 }
 
 .pokemon{
-    width: 200px;
+    width: 210px;
     height: 160px;
     background-color: #a3b18a;
     border-radius: 11px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-145%, -82%);
+    transform: translate(-140%, -82%);
     display: flex;
     justify-content: center;
 
