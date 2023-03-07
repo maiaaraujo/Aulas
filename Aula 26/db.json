@@ -1,0 +1,94 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Calças",
+      "descricao": "Calças em geral"
+    },
+    {
+      "id": 2,
+      "titulo": "Bota",
+      "descricao": "Botas de calçar"
+    },
+    {
+      "titulo": "Bonés",
+      "descricao": "Bones em geral",
+      "id": 3
+    },
+    {
+      "titulo": "Mouses",
+      "descricao": "perifericos em geral",
+      "id": 4
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "categoria_id": 1,
+      "tamanho": "41",
+      "codigo": "10982-4",
+      "cor": "Preta",
+      "marca": "ArteSurf",
+      "descricao": "",
+      "valor": 59.9,
+      "titulo": "Bota cano alto",
+      "quantidade": 10,
+      "imagens": [
+        "imagem01.jpg",
+        "imagem02.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "categoria_id": 2,
+      "tamanho": "M",
+      "codigo": "10982-4",
+      "cor": "Rosa",
+      "marca": "TheRua",
+      "descricao": "",
+      "valor": 99.99,
+      "titulo": "Calça",
+      "quantidade": 20,
+      "imagens": [
+        "imagem04.jpg",
+        "imagem05.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "categoria_id": 3,
+      "tamanho": "G",
+      "codigo": "10982-4",
+      "cor": "Azul",
+      "marca": "NerdUniverse",
+      "descricao": "",
+      "valor": 49.99,
+      "titulo": "Camisa",
+      "quantidade": 30,
+      "imagens": [
+        "imagem20.jpg",
+        "imagem22.jpg"
+      ]
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Maia",
+      "cpf": "08957805656",
+      "telefone": "8500000000"
+    },
+    {
+      "id": 2,
+      "nome": "Sara",
+      "cpf": "08957805656",
+      "telefone": "8500000000"
+    },
+    {
+      "id": 3,
+      "nome": "Giselle",
+      "cpf": "08957805656",
+      "telefone": "850000000"
+    }
+  ]
+}
