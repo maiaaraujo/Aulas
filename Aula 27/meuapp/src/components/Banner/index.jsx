@@ -1,8 +1,8 @@
 import React from 'react';
-import './index.css';
+import './banner.css';
 
 
-export default function banner()
+export default function Banner()
 {
     return(
         <>
