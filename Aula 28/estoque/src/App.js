@@ -1,4 +1,6 @@
 import "./estilo.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Lista () {
   let cursos = [
@@ -19,6 +21,9 @@ export default function App() {
 
 return (
     <div>
+      <header>
+        
+      </header>
       <h1 className="blue">Ola mundo</h1>
       <h2 className="red">Digital College</h2>
 
